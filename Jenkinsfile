@@ -24,7 +24,7 @@ pipeline{
 		
 		stage(DockerBuild){
 			steps{
-				sh 'docker build -t akshayak0262/student-demo:latest .'
+				sh 'docker build -t akshayak0262/g1-pms-allergy-docker:latest .'
 			}
 		}
 		
